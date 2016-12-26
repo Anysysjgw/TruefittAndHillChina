@@ -26,7 +26,7 @@
         
         <div class="menu__sub l__smallOnly t__gold">
             <a class="menu__sub--item js__menuChange is--active" data-type="products">产品列表</a>
-            <a href="/collections/barber-services" class="menu__sub--item">店铺 绍</a>
+            <a href="/collections/barber-services" class="menu__sub--item">店铺介绍</a>
             <a class="menu__sub--item js__menuChange" data-type="story">品牌故事</a>
             <a href="/pages/contact" class="menu__sub--item">关于我们</a>
         </div>
