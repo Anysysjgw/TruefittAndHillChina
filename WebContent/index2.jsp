@@ -43,7 +43,6 @@
 		
 	   	<meta property="og:type" content="website">
 	   	<meta property="og:title" content="Truefitt &amp; Hill London - Barbers &amp; Luxury grooming items">
-
 	   	<meta property="og:description" content="Established in 1805, Truefitt &amp;amp; Hill sells luxury grooming items for gentlemen; aftershaves, colognes, shaving accessories and hair products.">
 	   	<meta property="og:url" content="https://www.shelwin.online/">
 		<meta property="og:site_name" content="Truefitt &amp; Hill">
@@ -51,704 +50,81 @@
 		<meta name="viewport" content="initial-scale=1, user-scalable=no">
 		<link href="./css/styles.css" rel="stylesheet" type="text/css" media="all" />
 		<link rel="canonical" href="http://www.shelwin.online/">
-<!--
-		<script>
-		//<![CDATA[
-		      var Shopify = Shopify || {};
-		      Shopify.shop = "truefitt-and-hill.myshopify.com";
-		      Shopify.theme = {"name":"truefitt UK","id":8238905,"theme_store_id":null,"role":"main"};
-		
-		//]]>
-		</script>
-		<script>
-		//<![CDATA[
-		    (function() {
-		      function asyncLoad() {
-		        var urls = ["\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=truefitt-and-hill.myshopify.com"];
-		        for (var i = 0; i < urls.length; i++) {
-		          var s = document.createElement('script');
-		          s.type = 'text/javascript';
-		          s.async = true;
-		          s.src = urls[i];
-		          var x = document.getElementsByTagName('script')[0];
-		          x.parentNode.insertBefore(s, x);
-		        }
-		      }
-		      window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
-		    })();
-		
-		//]]>
-		</script>
-		<script id="__st">
-		//<![CDATA[
-		var __st={"a":3131965,"offset":0,"reqid":"4a0be733-c350-48bf-bfc2-d0b296a256dd","pageurl":"www.truefittandhill.co.uk\/","u":"8af987ab847d","p":"home"};
-		//]]>
-		</script>
-		<script>
-		//<![CDATA[
-		      (function() {
-		        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
-		        s.src = '//cdn.shopify.com/s/javascripts/shopify_stats.js?v=6';
-		        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-		      })();
-		
-		//]]>
-		</script>
-		<script src="//cdn.shopify.com/s/assets/themes_support/ga_urchin_forms-668547562549a84f5dfa01ef82607987f85ecbe1c8301faf25059becfa208199.js" defer="defer"></script>
-		<script type="text/javascript">
-			window.ShopifyAnalytics = window.ShopifyAnalytics || {};
-			window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
-			window.ShopifyAnalytics.meta.currency = 'GBP';
-			var meta = {};
-			for (var attr in meta) {
-				window.ShopifyAnalytics.meta[attr] = meta[attr];
-			}
-		</script>
+		<meta name="shopify-checkout-api-token" content="18a1349a2db703eaca9445043c79f590" />
 
-      <script type="text/javascript">
-        window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
-          
-        };
-      </script>
-
-      <script type="text/javascript" class="analytics">
-        (window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
-        
-        (function () {
-          var customDocumentWrite = function(content) {
-            var jquery = null;
-
-            if (window.jQuery) {
-              jquery = window.jQuery;
-            } else if (window.Checkout && window.Checkout.$) {
-              jquery = window.Checkout.$;
-            }
-
-            if (jquery) {
-              jquery('body').append(content);
-            }
-          };
-
-          var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
-          if (trekkie.integrations) {
-            return;
-          }
-          trekkie.methods = [
-            'identify',
-            'page',
-            'ready',
-            'track',
-            'trackForm',
-            'trackLink'
-          ];
-          trekkie.factory = function(method) {
-            return function() {
-              var args = Array.prototype.slice.call(arguments);
-              args.unshift(method);
-              trekkie.push(args);
-              return trekkie;
-            };
-          };
-          for (var i = 0; i < trekkie.methods.length; i++) {
-            var key = trekkie.methods[i];
-            trekkie[key] = trekkie.factory(key);
-          }
-          trekkie.load = function(config) {
-            trekkie.config = config;
-            var script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.onerror = function(e) {
-              (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
-            };
-            script.async = true;
-            script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2016.12.06.1';
-            var first = document.getElementsByTagName('script')[0];
-            first.parentNode.insertBefore(script, first);
-          };
-          trekkie.load(
-            {"Trekkie":{"appName":"storefront","environment":"production","defaultAttributes":{"shopId":3131965}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.001},"Google Analytics":{"trackingId":"UA-47785414-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["995898397145399"],"agent":"plshopify1.2"}}
-          );
-
-          var loaded = false;
-          trekkie.ready(function() {
-            if (loaded) return;
-            loaded = true;
-
-            window.ShopifyAnalytics.lib = window.trekkie;
-            
-      ga('require', 'linker');
-      function addListener(element, type, callback) {
-        if (element.addEventListener) {
-          element.addEventListener(type, callback);
-        }
-        else if (element.attachEvent) {
-          element.attachEvent('on' + type, callback);
-        }
-      }
-      function decorate(event) {
-        event = event || window.event;
-        var target = event.target || event.srcElement;
-        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
-          ga(function (tracker) {
-            var linkerParam = tracker.get('linkerParam');
-            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
-          });
-        }
-      }
-      addListener(window, 'load', function(){
-        for (var i=0; i < document.forms.length; i++) {
-          var action = document.forms[i].getAttribute('action');
-          if(action && action.indexOf('/cart') >= 0) {
-            addListener(document.forms[i], 'submit', decorate);
-          }
-        }
-        for (var i=0; i < document.links.length; i++) {
-          var href = document.links[i].getAttribute('href');
-          if(href && href.indexOf('/checkout') >= 0) {
-            addListener(document.links[i], 'click', decorate);
-          }
-        }
-      });
-    
-
-            var originalDocumentWrite = document.write;
-            document.write = customDocumentWrite;
-            try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
-            document.write = originalDocumentWrite;
-
-            
-        window.ShopifyAnalytics.lib.page(
-          null,
-          {"pageType":"home"}
-        );
-      
-            
-          });
-
-          
-      var eventsListenerScript = document.createElement('script');
-      eventsListenerScript.async = true;
-      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-37861b7e433c159ab7ac8932b47d1b8813173005dff35ce87a5900b43e3492ed.js";
-      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
-    
-        })();
-      </script>
-    
-	<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":3131965,"countryCode":"GB","currencyCode":"GBP","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/3131965","merchantName":"Truefitt \u0026 Hill","requiredBillingContactFields":["postalAddress","email","phone"],"requiredShippingContactFields":["postalAddress","email","phone"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex"]}</script>
-<script src="//cdn.shopify.com/s/assets/storefront/express_buttons-e7170b53c1261acf962ce045482c9647c2675c3b080250af5edbbb67a8cc1b3c.js" defer="defer" crossorigin="anonymous" integrity="sha256-5xcLU8EmGs+WLOBFSCyWR8JnXDsIAlCvXtu7Z6jMGzw="></script>
--->
-<meta name="shopify-checkout-api-token" content="18a1349a2db703eaca9445043c79f590" />
-
-<link rel="stylesheet" media="all" href="//cdn.shopify.com/s/assets/storefront/additional-checkout-buttons-e666b0b8a20c90d1eaafcc0f38897f2b4ab8af21f68426b37926e48a2ae452c2.css" />
-
-		<!--[if lt IE 9]>
-			<style>
-				* {
-					line-height: 1.5;
-				}
-				.upgrade {
-					position: fixed;
-					z-index: 999;
-					top: 0;
-					right: 0;
-					left: 0;
-					background: whitesmoke;
-					margin: 0;
-					bottom: 0;
-					padding: 5%;
-				}
-				.upgrade--col {
-					max-width: 800px;
-					margin: auto;
-				}
-				h2 {
-					margin-bottom: 20px;
-				}
-				.btn {
-					padding: 10px;
-					float: left;
-					width: 180px;
-					margin: 0 10px;
-				}
-				</style>
-		<![endif]-->
+		<link rel="stylesheet" media="all" href="//cdn.shopify.com/s/assets/storefront/additional-checkout-buttons-e666b0b8a20c90d1eaafcc0f38897f2b4ab8af21f68426b37926e48a2ae452c2.css" />
 
 	</head>
 	<body>
-		<!--[if lt IE 9]>
-			<div class="upgrade">
-				<div class="upgrade--col">
-					<h2 class="t__navy">Unfortunately your Browser is out of date</h2>
-					<p class="t__align--center">
-						Your browser is out of date, and is not be compatible with the new Truefitt &amp; Hill website. A list of the most popular web browsers can be found below. Simply click on the buttons below and you will be redirected to the relevant browser download page.
-					</p>
-					<p class="t__align--center">If you need any further assistance, please email us at <a href="mailto:hello@studiorotate.com">hello@studiorotate.com</a></p><br><br>
-					<div class="t__align--center">
-						<a href="http://www.google.com/chrome" target="_blank" class="btn l__navy">Chrome</a>
-						<a href="http://www.mozilla.com/firefox/" target="_blank" class="btn l__navy">Firefox</a>
-						<a href="http://www.apple.com/safari/download/" target="_blank" class="btn l__navy">Safari</a>
-						<a href="http://www.microsoft.com/windows/Internet-explorer/" target="_blank" class="btn l__navy">IE</a>
-					</div>
-				</div>
-			</div>
-		<![endif]-->
-		<div class="overlay">
-
-  <div class="overlay__bg"></div>
-
-  <div class="overlay__scroll">
-
-    <div class="overlay__outer">
-      <div class="overlay__inner">
-
-        <div class="overlay__container">
-
-          <div class="overlay__panel">
-
-            <style>
-              .overlay__left--bg { background-image: url( '//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/pop-up_500x.jpg?10064928683788161773' ) }
-              @media screen and (min-width: 600px) {
-                .overlay__left--bg { background-image: url( '//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/pop-up_700x.jpg?10064928683788161773' ) }
-              }
-              @media screen and (min-width: 1000px) {
-                .overlay__left--bg { background-image: url( '//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/pop-up_920x.jpg?10064928683788161773' ) }
-              }
-            </style>
-
-            <div class="overlay__left  overlay__left--bg">
- 
-              <img class="overlay__logo"
-                src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/logo-pop-up_300x.png?10064928683788161773"
-                alt="Truefitt and Hill Subscribe"
-                srcset="
-                    //cdn.shopify.com/s/files/1/0313/1965/t/2/assets/logo-pop-up_600x.png?10064928683788161773 600w,
-                    //cdn.shopify.com/s/files/1/0313/1965/t/2/assets/logo-pop-up_300x.png?10064928683788161773 300w
-                    "
-                sizes="(min-width: 976px) 600px, 300px">
-            </div>
-
-            <div class="overlay__right">
-              <h4 class="overlay__title">We invite you to join the Gentlemen’s club</h4>
-              <p class="overlay__copy  t__navy--light l__marginTop">Subscribe and join our fellow distinguished clientele who not only enjoy the finest aspects of life, but also seek the very best in grooming experiences and craftsmanship. We will ensure you are the first to know about our exclusive offers for members only.</p>
-              <p class="overlay__msg"></p>
-              
-                <form class="overlay__form ui__form" action="//truefittandhill.us8.list-manage.com/subscribe/post-json?u=0dcd71969764d6293d3f7a3b5&id=a7ac65b889" method="get">
-                  <input class="overlay__input  l__grey-alt  l__marginTop--med" type="email" value="" name="EMAIL" placeholder="Email Address">
-                  <input class="btn--navy btn--full  l__marginTop--small" type="submit" value="Submit" name="subscribe">
-                </form>
-              
-              <div class="overlay__close">
-                <span class="overlay__cross"></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
-</div>
-          
-
-		<div class="l__dis--block l__padding--small l__grey t__gold t__zeta t__tiny">christmas delivery - order by 2pm 23rd december</div>
+	<div class="l__dis--block l__padding--small l__grey t__gold t__zeta t__tiny">christmas delivery - order by 2pm 23rd december</div>
 
 		<div class="l__container l__white">
-			<header class="l__strip--two l__navy" data-ui="Brand Header">
-				<div class="l__center">
-					<a href="/" class="logo">Truefitt &amp; Hill</a>
-				</div>
-			</header>
+		<%@include file="top.jsp"%><!--静态包含-->
+	
+		<section data-ui="Highlights">
+		    <ul class="l__list--two">
+		        <li>
+		            <div class="slider">
+		                <ul class="slider__holder l__cf">
+		                    <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideCollectionOne.jpg?15009833358583750347)">
+		                        <div class="slider__tint" ></div>
+		                        <div class="l__full l__dis--table">
+		                            <div class="l__middle">
+		                                <h6 class="t__gold"></h6>
+		                                <h1 class="t__white">Style Defined</h1>
+		                                <h1 class="t__white">Style Defined</h1>
+		                                <h6 class="t__white">new traditional hair dressings</h6>
+		                                <a href="https://www.truefittandhill.co.uk/collections/traditional-hair-dressings" class="btn btn--compact">buy now <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
+		                            </div>
+		                        </div>
+		                    </li>
+		                    
+		                    <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/collections/Shave_720x490.progressive.jpg?v=1420641963)">
+		                        <div class="slider__tint" ></div>
+		                        <div class="l__full l__dis--table">
+		                            <div class="l__middle">
+		                                <h6 class="t__gold">Product</h6>
+		                                <h1 class="t__white">Shaving</h1>
+		                                <a href="/collections/shaving" class="btn btn--compact">View Products <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
+		                            </div>
+		                        </div>
+		                    </li>
+		                    
+		                    <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideCollectionThree.jpg?15009833358583750347)">
+		                        <div class="slider__tint" ></div>
+		                        <div class="l__full l__dis--table">
+		                            <div class="l__middle">
+		                                <h6 class="t__gold"></h6>
+		                                <h1 class="t__white">The Apsley</h1>
+		                                <h6 class="t__white">A CAPTIVATING NEW COLOGNE</h6>
+		                                <a href="https://www.truefittandhill.co.uk/products/apsley-cologne" class="btn btn--compact">Buy Now <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
+		                            </div>
+		                        </div>
+		                    </li>
+		                </ul>
+		                
+		                <div class="slider__prev"></div>
+		                <div class="slider__next"></div>
+		                <div class="slider__paginate">
+		                    <div class="slider__paginate__item is--selected" data-place="0"></div>
+		                    <div class="slider__paginate__item" data-place="1"></div>
+		                    <div class="slider__paginate__item" data-place="2"></div>
+		                </div>
+		                
+		            </div>
+		        </li>
+		        <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideEditorial.jpg?15009833358583750347)">
+		            <div class="slider__tint"></div>
+		            <div class="l__full l__dis--table">
+		                <div class="l__middle">
+		                    <h6 class="t__gold"></h6>
+		                    <h1>211 YEARS OF GROOMING TRADITION</h1>
+		                </div>
+		            </div>
+		        </li>
+		    </ul>
+		</section>
 
-			<link rel="stylesheet" href="./css/menu.css" type="text/css">
-
-			<nav class="l__top l__strip z__5" id="menu" data-ui="Primary Nav">
-			
-			    <div class="menu__opts js__menuToggle"><h6>MENU</h6></div>
-			
-			
-			    <div class="menu__items l__center">
-			        
-			        <a class="js__menuToggleChange t__zeta" data-type="products">产 品 列 表</a>
-			        <!-- <a class="js__menuToggleChange t__zeta" data-type="ranges">Ranges 范围</a> -->
-			        <a href="/collections/barber-services" class="t__zeta">店 铺 介 绍</a>
-			        <a class="js__menuToggleChange t__zeta" data-type="story">品 牌 故 事</a>
-			        <!-- <a href="/blogs/blog" class="t__zeta">Blog 博客</a> -->
-			        <a class="js__menuToggleChange t__zeta" data-type="contact">关 于 我 们</a>
-			    </div>
-			
-			    <div class="dropdown dropdown--left l__grey--menu js__dropdown ui__animate radius l__pos--abs t__alignLeft l__padding--small" data-area="products">
-			        <svg class="s__grey--menu s__pointer" viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 20l20-20 20 20h-40z"/></svg>
-			        <div class="menu__sub l__smallOnly t__gold">
-			            <a class="menu__sub--item js__menuChange is--active" data-type="products">Products</a>
-			            <a class="menu__sub--item js__menuChange" data-type="ranges">Ranges</a>
-			            <a href="/collections/barber-services" class="menu__sub--item">Barbers</a>
-			            <a class="menu__sub--item js__menuChange" data-type="story">Our Story</a>
-			            <a href="/blogs/blog" class="menu__sub--item">Blog</a>
-			            <a href="/pages/contact" class="menu__sub--item">Contact</a>
-			        </div>
-			
-			        <div class="menu__group" data-type="products">
-			            <div class="l__list--twoGap">
-			                
-			                    <a href="/collections/shaving" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Shaving 剃须</h6>
-			                            <small class="t__gold">Razors, Brushes, Creams &amp; More</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/wellington--ivory--mach3_a1e88548-d247-467b-b6a7-5b7e5cda2759_small.jpg?v=1450194230" alt="Shaving" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/face-body" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Face & Body 面部 & 身体</h6>
-			                            <small class="t__gold">Moisturisers, Soaps &amp; More</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/1805_tripple_soap_small.jpg?v=1416249590" alt="Face & Body" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/hair-care" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Hair Care 头发护理</h6>
-			                            <small class="t__gold">Shampoo, Styling &amp; More</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/athenian_small.jpg?v=1473708679" alt="Hair Care" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/travel-accessories" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Accessories & Travel 配件 & 旅行装</h6>
-			                            <small class="t__gold">Manicure Sets, Packs &amp; More</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/Comb_04_small.jpg?v=1442397361" alt="Accessories & Travel" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/fragrances" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Fragrances 香氛系列</h6>
-			                            <small class="t__gold">Colognes &amp; Aftershaves</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/Apsley-shopify_small.jpg?v=1471273684" alt="Fragrances" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/gifts" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Gifts 礼品装</h6>
-			                            <small class="t__gold">Experiences, Vouchers &amp; Sets</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/essential_small.jpg?v=1427298733" alt="Gifts" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/beard-moustache-range" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Beard & Moustache 两鬓护理</h6>
-			                            <small class="t__gold">Care for a Gentleman's facial hair</small>
-			                        </div>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/products/BeardBalm_02_small.jpg?v=1460109246" alt="Beard & Moustache" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			            </div>
-			        </div><!-- menu__group -->
-			        
-			        <div class="menu__group" data-type="ranges">
-			            <div class="l__list--twoGap">
-			                
-			                    <a href="/collections/1805" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>1805</h6>
-			                            <small class="t__gold">Fresh and oceanic</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/1805_thumb.jpg?10064928683788161773" alt="1805" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/trafalgar" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Trafalgar</h6>
-			                            <small class="t__gold">A captivating spicy wood fragrance</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/trafalgar_thumb.jpg?10064928683788161773" alt="Trafalgar" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/grafton" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Grafton</h6>
-			                            <small class="t__gold">Warm and spicy</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/grafton_thumb.jpg?10064928683788161773" alt="Grafton" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/west-indian-limes" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>West Indian Limes</h6>
-			                            <small class="t__gold">Refreshing, effervescent, and zesty</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/west-indian-limes_thumb.jpg?10064928683788161773" alt="West Indian Limes" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/sandalwood" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Sandalwood</h6>
-			                            <small class="t__gold">A fresh update for a subtle classic.</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/sandalwood_thumb.jpg?10064928683788161773" alt="Sandalwood" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/ultimate-comfort" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Ultimate Comfort</h6>
-			                            <small class="t__gold">The ultimate in skin care and grooming essentials</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/ultimate-comfort_thumb.jpg?10064928683788161773" alt="Ultimate Comfort" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/no-10" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>No.10</h6>
-			                            <small class="t__gold">Willow Bark, Borage Oil, Meadowfoam Seed Oil, Sweet Almond Oil &amp; Olive Oil</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/no-10_thumb.jpg?10064928683788161773" alt="No.10" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			                    <a href="/collections/traditional-hair-dressings" class="l__list__item menu__item l__pos--rel">
-			                        <div class="l__center">
-			                            <h6>Traditional Hair Dressings</h6>
-			                            <small class="t__gold">Original hair products using Victorian formulas</small>
-			                        </div>
-			                        
-			
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/traditional-hair-dressings_thumb.jpg?10064928683788161773" alt="Traditional Hair Dressings" class="radius l__pos--abs l__thumb">
-			                    </a>
-			                
-			            </div>
-			        </div><!-- menu__group -->
-			        
-			        <div class="menu__group" data-type="story">
-			            <div class="l__list--gap">
-			                <a href="/pages/about-us" class="l__list__item menu__item l__dis--table l__pos--rel">
-			                    <div class="l__middle">
-			                        <h6>About Us 关于我们</h6>
-			                        <small class="t__gold">Learn about Truefitt & Hill</small>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/about.jpg?10064928683788161773" alt="About Truefitt" class="radius l__pos--abs l__thumb">
-			                    </div>
-			                </a>
-			                <a href="/pages/history" class="l__list__item menu__item l__dis--table l__pos--rel">
-			                    <div class="l__middle">
-			                        <h6>Our History 我们的历史</h6>
-			                        <small class="t__gold">Find out where it all began</small>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/history.jpg?10064928683788161773" alt="History of Truefitt" class="radius l__pos--abs l__thumb">
-			                    </div>
-			                </a>
-			                <a href="/pages/literary-quotes" class="l__list__item menu__item l__dis--table l__pos--rel">
-			                    <div class="l__middle">
-			                        <h6>Literary Quotes 名人言</h6>
-			                        <small class="t__gold">Part of British culture</small>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/quotes.jpg?10064928683788161773" alt="Quotes" class="radius l__pos--abs l__thumb">
-			                    </div>
-			                </a>
-			                <a href="/pages/made-in-britain" class="l__list__item menu__item l__dis--table l__pos--rel">
-			                    <div class="l__middle">
-			                        <h6>Made In Britain 英国制造</h6>
-			                        <small class="t__gold">Our 100% British made products</small>
-			                        <img src="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/madein.jpg?10064928683788161773" alt="Made in Britain" class="radius l__pos--abs l__thumb">
-			                    </div>
-			                </a>
-			            </div>
-			        </div>
-			        
-			        <!-- menu__group -->
-
-			        <div class="menu__group" data-type="contact">
-			            <div class="l__list--gap l__paddingTop">
-			
-			           </div>
-			        </div><!-- menu__group -->
-			        <div class="menu__group" data-type="contact">
-            <div class="l__list--gap l__paddingTop">                                                                            <div class="menu__countryDropItems is--hidden" style="">                    <a href="/pages/contact#51" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">                        <div class="l__middle">                            <h6>Toronto</h6>                            <small class="t__gold">Brookfield Place</small>                            <img src="//cdn.truefittandhill.co.uk/api/_mini/Toronto_Store.jpg?mtime=20150702173547" alt="Toronto store" class="radius l__pos--abs l__thumb">                        </div>                    </a>                    <a href="/pages/contact#123" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">                        <div class="l__middle">                            <h6>North America Distribution</h6>                            <small class="t__gold">100 Sunrise Ave</small>                            <img src="//cdn.truefittandhill.co.uk/api/_mini/10-store-1440.jpg?mtime=20150217225115" alt="North America Distribution store" class="radius l__pos--abs l__thumb">                        </div>                    </a></div>                                <div class="menu__countryDropItems is--hidden" style="display: block;">                    <a href="/pages/contact#659" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">                        <div class="l__middle">                            <h6>上海</h6>                            <small class="t__gold">思南公馆101室</small>                            <img src="//cdn.truefittandhill.co.uk/api/_mini/10-store-1440.jpg?mtime=20150217225115" alt="Shanghai store" class="radius l__pos--abs l__thumb">                        </div>                    </a>                    <a href="/pages/contact#83" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">                        <div class="l__middle">                            <h6>北京</h6>                            <small class="t__gold">银泰中心</small>                            <img src="//cdn.truefittandhill.co.uk/api/_mini/15-store-1440.jpg?mtime=20150217225118" alt="Beijing store" class="radius l__pos--abs l__thumb">                        </div>                    </a></div>                                                                                                                                                                                                </div>
-        </div>
-			
-			    </div><!-- menu__dropdown -->
-			
-			<!--     <div class="l__gold t__white dropdown dropdown--right js__utilDropdown ui__animate radius l__pos--abs t__alignLeft l__padding--small">
-			        <svg class="s__gold s__pointer" viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 20l20-20 20 20h-40z"/></svg>
-			        <div class="menu__group" data-type="login">
-			            
-			                <form method="post" action="https://www.truefittandhill.co.uk/account/login" id="customer_login" accept-charset="UTF-8"><input type="hidden" value="customer_login" name="form_type" /><input type="hidden" name="utf8" value="✓" />
-			
-			                    
-			
-			
-			
-			                    <label for="customer_email">Email</label>
-			                    <input type="email" name="customer[email]" id="customer_email" placeholder="Email Address" autocorrect="off" autocapitalize="off">
-			
-			                    <label for="customer_password">Password</label>
-			                    <input type="password" value="" name="customer[password]" id="customer_password" placeholder="Password" >
-			
-			                    <a href="/account/login#reset" class="t__tiny t__navy--hover l__margin--small l__marginBottom t__block">Forgotten password?</a>
-			
-			                    <input type="submit" class="btn l__margin--small btn--full" name="login" value="Log In">
-			                    <a href="/account/register" class="btn--hollowWhiteGold btn--full">new customer?</a>
-			
-			
-			                </form>
-			            
-			
-			        </div>
-			        <div class="menu__group cart" data-type="cart">
-			            <div class="cart__contents"></div>
-			            <div class="l__padding--med t__noLine l__margin">
-			                <h6 class="faint l__left">Subtotal</h6>
-			                <h4 class="t__noSpacing t__noLine l__right js__subTotal"></h4>
-			            </div>
-			            
-			                <link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/freeShipping.css?10064928683788161773" type="text/css">
-			<script>
-			  settings.freeShipping = {
-			    point: 10,
-			    message: 'Add an extra XX to your cart for free UK shipping.',
-			    result: 'This cart qualifies for free UK shipping.',
-			  }
-			</script>
-			<h6 class="freeShipping"></h6>
-			            
-			            
-			                <link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/giftwrapping.css?10064928683788161773" type="text/css"><script> </script>
-			
-			<div class="giftwrapping">
-			  <div class="giftwrapping__pick">
-			    <input id="giftwrapping" type="checkbox" value="yes" />
-			    <h6>Get your order gift wrapped for £7.50</h6>
-			  </div>
-			  
-			</div>
-			            
-			            <form action="/cart" method="post">
-			                <input type="submit" name="checkout" class="btn btn--full ui__checkout" value="Check out" >
-			            </form>
-			        </div>
-			        <div class="menu__group" data-type="search">
-			            <form action="/search" method="get" class="ui__form--minimal" role="search">
-			                <input name="q"  type="search" placeholder="Search" id="search">
-			                <input type="hidden" name="type" value="product">
-			                <input class="ui__icon--search" type="submit" value="submit">
-			            </form>
-			        </div>
-			    </div> -->
-			
-			</nav>
-			<section data-ui="Highlights">
-			    <ul class="l__list--two">
-			        <li>
-			            <div class="slider">
-			                <ul class="slider__holder l__cf">
-			                    <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideCollectionOne.jpg?15009833358583750347)">
-			                        <div class="slider__tint" ></div>
-			                        <div class="l__full l__dis--table">
-			                            <div class="l__middle">
-			                                <h6 class="t__gold"></h6>
-			                                <h1 class="t__white">Style Defined</h1>
-			                                <h1 class="t__white">Style Defined</h1>
-			                                <h6 class="t__white">new traditional hair dressings</h6>
-			                                <a href="https://www.truefittandhill.co.uk/collections/traditional-hair-dressings" class="btn btn--compact">buy now <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
-			                            </div>
-			                        </div>
-			                    </li>
-			                    
-			                    <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/collections/Shave_720x490.progressive.jpg?v=1420641963)">
-			                        <div class="slider__tint" ></div>
-			                        <div class="l__full l__dis--table">
-			                            <div class="l__middle">
-			                                <h6 class="t__gold">Product</h6>
-			                                <h1 class="t__white">Shaving</h1>
-			                                <a href="/collections/shaving" class="btn btn--compact">View Products <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
-			                            </div>
-			                        </div>
-			                    </li>
-			                    
-			                    <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideCollectionThree.jpg?15009833358583750347)">
-			                        <div class="slider__tint" ></div>
-			                        <div class="l__full l__dis--table">
-			                            <div class="l__middle">
-			                                <h6 class="t__gold"></h6>
-			                                <h1 class="t__white">The Apsley</h1>
-			                                <h6 class="t__white">A CAPTIVATING NEW COLOGNE</h6>
-			                                <a href="https://www.truefittandhill.co.uk/products/apsley-cologne" class="btn btn--compact">Buy Now <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
-			                            </div>
-			                        </div>
-			                    </li>
-			                </ul>
-			                
-			                <div class="slider__prev"></div>
-			                <div class="slider__next"></div>
-			                <div class="slider__paginate">
-			                    <div class="slider__paginate__item is--selected" data-place="0"></div>
-			                    <div class="slider__paginate__item" data-place="1"></div>
-			                    <div class="slider__paginate__item" data-place="2"></div>
-			                </div>
-			                
-			            </div>
-			        </li>
-			        <li class="l__block--tall slider__item" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideEditorial.jpg?15009833358583750347)">
-			            <div class="slider__tint"></div>
-			            <div class="l__full l__dis--table">
-			                <div class="l__middle">
-			                    <h6 class="t__gold"></h6>
-			                    <h1>211 YEARS OF GROOMING TRADITION</h1>
-			                </div>
-			            </div>
-			        </li>
-			    </ul>
-			</section>
-
-        <!-- <link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slider.css?10064928683788161773" type="text/css">
-		<style>
-		  #slideOne {
-		    background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideOne.jpg?10064928683788161773)
-		  }
-		   #slideTwo {
-		    background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideTwo.jpg?10064928683788161773)
-		  }
-		  #slideThree {
-		    background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/slideThree.jpg?10064928683788161773)
-		  }
-		</style>
-
-		<script>
-		  settings.slider = {
-		    autoplay: false,
-		    loop: false
-		  }  
-		</script>
-
-		<div class="slider">
-		  <div class="slider__wrapper">
-		    <div class="slider__slide" id="slideOne">
-		      <h6 class="t__gold"></h6>
-		      <h1 class="t__white">christmas</h1>
-		      <h6 class="t__white">At Truefitt and hill</h6>
-		      <a href="https://www.truefittandhill.co.uk/collections/christmas-at-truefitt-hill" class="btn btn--compact">
-		        SHOP NOW<svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg>
-		      </a>
-		    </div>
-		  </div>
-		</div> -->
-    
     <section class="l__full" data-ui="Featured">
         <h3>Featured</h3>
         <div class="tabbed l__margin">
