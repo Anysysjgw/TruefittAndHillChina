@@ -23,7 +23,7 @@
 		</script>
 
 		<!-- Title and desc ================================================== -->
-		<title>特罗菲特中国</title>
+		<title>特洛菲特中国</title>
 
 		<meta name="description" content="Established in 1805, Truefitt &amp;amp; Hill sells luxury grooming items for gentlemen; aftershaves, colognes, shaving accessories and hair products.">
 
