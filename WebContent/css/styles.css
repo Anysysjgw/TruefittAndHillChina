@@ -510,7 +510,7 @@ img{
 }
 .t__crest:before{
 	content:'';
-	background:url(crest_with_text--gold.png) top/100% no-repeat;
+	background:url(../pic/crest_with_text--gold.png) top/100% no-repeat;
 	width:9.5rem;
 	height:6rem;
 	display:block;
@@ -1065,7 +1065,7 @@ input[type=checkbox]:checked:after{
 		margin:auto;
 		width:8.125rem;
 		height:5.625rem;
-		background:url(crest_with_text.png) center/100% no-repeat
+		background:url(../pic/crest_with_text.png) center/100% no-repeat
 	}
 }
 .logo--footer{
@@ -1167,12 +1167,12 @@ input[type=checkbox]:checked:after{
 	background-repeat:no-repeat
 }
 .callout--razor{
-	background-image:url(razor_illustration.png);
+	background-image:url(../pic/razor_illustration.png);
 	background-size:14rem;
 	background-position:center bottom
 }
 .callout--scissors{
-	background-image:url(scissors_illustration.png);
+	background-image:url(../pic/scissors_illustration.png);
 	background-size:85%;
 	background-position:center
 }
@@ -1898,11 +1898,11 @@ input[type=checkbox]:checked:after{
 	display:block;
 	background-size:cover;
 	background-position:center;
-	background-image:url(//cdn.truefittandhill.co.uk/api/_medium/1-history-1440.jpg)
+	background-image:url(../pic/medium/1-history-1440.jpg)
 }
 @media (min-width:61em){
 	.journal__snippet__img{
-		background-image:url(//cdn.truefittandhill.co.uk/api/_large/1-history-1440.jpg)
+		background-image:url(../pic/large/1-history-1440.jpg)
 	}
 }
 .journal__snippet__img:hover+.journal__snippet__copy h5,.journal__snippet__img:hover+.journal__snippet__copy p{
@@ -1971,12 +1971,12 @@ input[type=checkbox]:checked:after{
 	display:block;
 	background-size:cover;
 	background-position:top center;
-	background-image:url(//cdn.truefittandhill.co.uk/api/_medium/1-history-1440.jpg)
+	background-image:url(../pic/medium/1-history-1440.jpg)
 }
 @media (min-width:61em){
 	.journal__header{
 		height:35rem;
-		background-image:url(//cdn.truefittandhill.co.uk/api/_large/1-history-1440.jpg)
+		background-image:url(../pic/large/1-history-1440.jpg)
 	}
 }
 .journal__body{
