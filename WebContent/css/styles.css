@@ -1289,6 +1289,9 @@ input[type=checkbox]:checked:after{
 .social h6{
 	float:left
 }
+.social a{
+	float:left
+}
 .social svg{
 	float:right;
 	fill:#a3925f;
