@@ -222,7 +222,7 @@
 			    <ul class="l__list--four2One t__alignLeft">
 			    	<li>
 			        	<span>
-			          		<h6 class="t__gold l__marginBottom">Address</h6>
+			          		<h6 class="t__gold l__marginBottom">地址</h6>
 			          		<h5 class="t__eta">
 				            	<a>北京市朝阳区建国门外大街2号<br>银泰中心</a>
 			          		</h5>
