@@ -1,8 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<section class="l__full t__gold image-id-1" data-ui="Made In Britain" style="background-image: url(//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/made.jpg?10064928683788161773)">
-    <h3 class="t__crest">英国制造</h3>
+<section class="l__full t__gold image-id-1" data-ui="Made In Britain" style="background-image: url(./pic/made.jpg)">
+	<h3 class="t__crest">英国制造</h3>
     <p class="l__max-width">
         All our products have been carefully crafted in England since 1805 and they embody the essence of the British heritage at its best. Our dedicated team of highly skilled professionals, chemists, designers and craftsmen work tirelessly to deliver our products known today for their distinctive tradition of innovation and excellence. Our iconic ranges will continue to be produced in England as we constantly endeavour to bring new and exciting products in response to our customer’s needs.
     </p>
@@ -20,7 +19,7 @@
         <li class="l__navy l__block l__dis--table l__padding--none t__white callout--scissors">
             <div class="l__middle">
                 <h4 class="l__max-width">预约&middot;体验</h4>
-                <a href="/pages/contact" class="btn--hollowWhite btn--compact">查询门店<svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
+                <a href="./contact.jsp" class="btn--hollowWhite btn--compact">查询门店<svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>
             </div>
         </li>
     </ul>

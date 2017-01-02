@@ -18,7 +18,7 @@
 			  'country': 'china',
 			  'countryCode': 'cn',
 			  'assets': '//cdn.shopify.com/s/files/1/0313/1965/t/2/assets/',
-				'giftWrap': 28834647553
+			  'giftWrap': 28834647553
 		  };
 		</script>
 
@@ -28,7 +28,7 @@
 		<meta name="description" content="Established in 1805, Truefitt &amp;amp; Hill sells luxury grooming items for gentlemen; aftershaves, colognes, shaving accessories and hair products.">
 
 		<!-- Start Visual Website Optimizer Asynchronous Code -->
-		<script type='text/javascript'>
+<!-- 		<script type='text/javascript'>
 		var _vwo_code=(function(){
 		var account_id=267021,
 		settings_tolerance=2000,
@@ -36,7 +36,7 @@
 		use_existing_jquery=false,
 		// DO NOT EDIT BELOW THIS LINE
 		f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
-		</script>
+		</script> -->
 		<!-- End Visual Website Optimizer Asynchronous Code -->
 		
 		<!-- Product meta ================================================== -->
@@ -50,7 +50,6 @@
 		<meta name="viewport" content="initial-scale=1, user-scalable=no">
 		<link href="./css/styles.css" rel="stylesheet" type="text/css" media="all" />
 		<link rel="canonical" href="http://www.shelwin.online/">
-		<meta name="shopify-checkout-api-token" content="18a1349a2db703eaca9445043c79f590" />
 
 		<link rel="stylesheet" media="all" href="//cdn.shopify.com/s/assets/storefront/additional-checkout-buttons-e666b0b8a20c90d1eaafcc0f38897f2b4ab8af21f68426b37926e48a2ae452c2.css" />
 
@@ -72,7 +71,6 @@
 		                        <div class="l__full l__dis--table">
 		                            <div class="l__middle">
 		                                <h6 class="t__gold"></h6>
-		                                <h1 class="t__white">Style Defined</h1>
 		                                <h1 class="t__white">Style Defined</h1>
 		                                <h6 class="t__white">new traditional hair dressings</h6>
 		                                <a href="https://www.truefittandhill.co.uk/collections/traditional-hair-dressings" class="btn btn--compact">buy now <svg width="26" height="45" viewBox="0 0 26 45" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"><path d="M3.5.1l22.5 22.5-22.5 22.4-3.5-3.5 18.9-18.9-18.9-18.9 3.5-3.6z" sketch:type="MSShapeGroup" /></svg></a>

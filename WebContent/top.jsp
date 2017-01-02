@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
 <header class="l__strip--two l__navy" data-ui="Brand Header">
 	<div class="l__center">
 		<a href="/" class="logo">Truefitt &amp; Hill</a>
@@ -15,9 +14,9 @@
 
     <div class="menu__items l__center">
         <a class="js__menuToggleChange t__zeta" data-type="products">产 品 列 表</a>
-        <a href="/collections/barber-services" class="t__zeta">店 铺 介 绍</a>
+        <a href="./barber-services.jsp" class="t__zeta">店 铺 介 绍</a>
         <a class="js__menuToggleChange t__zeta" data-type="story">品 牌 故 事</a>
-        <a class="js__menuToggleChange t__zeta" data-type="contact">关 于 我 们</a>
+        <a class="js__menuToggleChange t__zeta" data-type="contact">联 系 我 们</a>
     </div>
 
     <div class="dropdown dropdown--left l__grey--menu js__dropdown ui__animate radius l__pos--abs t__alignLeft l__padding--small" data-area="products">
@@ -26,9 +25,9 @@
         
         <div class="menu__sub l__smallOnly t__gold">
             <a class="menu__sub--item js__menuChange is--active" data-type="products">产品列表</a>
-            <a href="/collections/barber-services" class="menu__sub--item">店铺介绍</a>
+            <a href="./barber-services.jsp" class="menu__sub--item">店铺介绍</a>
             <a class="menu__sub--item js__menuChange" data-type="story">品牌故事</a>
-            <a href="/pages/contact" class="menu__sub--item">关于我们</a>
+            <a href="./contact.jsp" class="menu__sub--item">联系我们</a>
         </div>
 
         <div class="menu__group" data-type="products">
@@ -210,14 +209,14 @@
    					</a>
    				</div>
    				<div class="menu__countryDropItems is--hidden" style="display: block;">
-   					<a href="/pages/contact#659" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">
+   					<a href="./contact.jsp#659" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">
     					<div class="l__middle">
     						<h6>上海</h6>
     						<small class="t__gold">思南公馆101室</small>
     						<img src="//cdn.truefittandhill.co.uk/api/_mini/10-store-1440.jpg?mtime=20150217225115" alt="Shanghai store" class="radius l__pos--abs l__thumb">
     					</div>
    					</a>
-   					<a href="/pages/contact#83" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">
+   					<a href="./contact.jsp#83" class="l__list__item menu__item l__white l__dis--table radius l__pos--rel">
    						<div class="l__middle">
    							<h6>北京</h6>
    							<small class="t__gold">银泰中心</small>
