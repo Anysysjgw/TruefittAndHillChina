@@ -51,7 +51,7 @@
 		<link href="./css/styles.css" rel="stylesheet" type="text/css" media="all" />
 		<link rel="canonical" href="http://www.shelwin.online/">
 
-		<link rel="stylesheet" media="all" href="//cdn.shopify.com/s/assets/storefront/additional-checkout-buttons-e666b0b8a20c90d1eaafcc0f38897f2b4ab8af21f68426b37926e48a2ae452c2.css" />
+		<link rel="stylesheet" media="all" href="./css/additional-checkout-buttons.css" />
 
 	</head>
 	<body>

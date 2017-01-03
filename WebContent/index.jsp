@@ -51,11 +51,11 @@
 		<link href="./css/styles.css" rel="stylesheet" type="text/css" media="all" />
 		<link rel="canonical" href="http://www.shelwin.online/">
 
-		<link rel="stylesheet" media="all" href="//cdn.shopify.com/s/assets/storefront/additional-checkout-buttons-e666b0b8a20c90d1eaafcc0f38897f2b4ab8af21f68426b37926e48a2ae452c2.css" />
+		<link rel="stylesheet" media="all" href="./css/additional-checkout-buttons.css" />
 
 	</head>
 	<body>
-	<div class="l__dis--block l__padding--small l__grey t__gold t__zeta t__tiny">christmas delivery - order by 2pm 23rd december</div>
+	<div class="l__dis--block l__padding--small l__grey t__gold t__zeta t__tiny">FREE UK SHIPPING ON ORDERS OVER £10</div>
 
 	<div class="l__container l__white">
 	
